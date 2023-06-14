@@ -33,6 +33,4 @@ public class Account {
   @NotNull
   @Size(min = 6, max = 255)
   private String email;
-//  @OneToMany(fetch = FetchType.LAZY, mappedBy = "account")
-//  private List<GameSession> gameSessions;
 }
